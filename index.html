@@ -9,15 +9,17 @@
 </head>
 
 <body>
-    Você é:
     <label for="nacionalidade">
-        <input type="radio" value="Nacionalidade" value="Brasileiro" /> Brasileiro
+        Você é:
+        <input type="radio" name="nacionalidade" value="Brasileiro" />
+        Brasileiro
     </label>
 
-    <label for="Nacionalidade">
+    <label for="nacionalidade">
         <input type="radio" name="nacionalidade" value="Estrangeiro" />
         Estrangeiro
     </label>
+
     <div id="grupo-genero">
         Seu genero:
 
@@ -25,44 +27,41 @@
             <input type="radio" name="genero">
             Feminino
         </label>
-
         <label>
             <input type="radio" name="genero">
             Masculino
         </label>
-
         <label>
             <input type="radio" name="genero">
             Outros
         </label>
     </div>
+
     <div id="selecao-estados">
         <select>
-            <option selected disabled> Selecione um estado </option>
+            <option selected disabled>Selecione um Estado:</option>
             <option>Espirito Santo</option>
-            <option>Rio De Janeiro</option>
             <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
             <option>Minas Gerais</option>
         </select>
     </div>
 
     <div>
-        <label>
-            <input id="Compartilhar-informacoes" type="checkbox" />
+        <label for="compartilhar-informacoes">
+            <input id="compartilhar-informacoes" type="checkbox" />
             Desejo compartilhar minhas informações
         </label>
     </div>
 
-    </div>
-    <label for="">
-        Volume:
-        <input type="range" />
-    </label>
+    <div>
+        <label for="">
+            Volume
+            <input type="range" />
+        </label>
     </div>
 
-<div>
-    <a href="cadastro.html"> Faça seu cadastro aqui</a>
-</div>
+    <a href="cadastro.html">Faça seu cadastro aqui</a>
 </body>
-
+script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </html>
