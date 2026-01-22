@@ -6,62 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link href="index.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
-    <label for="nacionalidade">
-        Você é:
-        <input type="radio" name="nacionalidade" value="Brasileiro" />
-        Brasileiro
-    </label>
+    <nav class="navbar bg-body-teriary">
+        <div class="container-fluid">
+            <a href="/index.html" class="navbar-brand">Introdução</a>
 
-    <label for="nacionalidade">
-        <input type="radio" name="nacionalidade" value="Estrangeiro" />
-        Estrangeiro
-    </label>
+            <a href="/cadastro.html" class="btn btn-success">Cadastrar</a>
+        </div>
+    </nav>
 
-    <div id="grupo-genero">
-        Seu genero:
+<div class="container col.xxl-8 px-4 py-5 bg-primary">
+    <div class="d-flex row align-itens-center py-5 bg-secondary">
+        <div class="bg-info col-10 col-sm-8 col-lg-6">
+            <img src="assets/hero_img.png" wdht="700" height="400" class="d-block img-fluid mx-lg-auto" alt="A melhor cantora do mundo, vestida de preto, loira. Mais conhecida como Adele!"/>
 
-        <label>
-            <input type="radio" name="genero">
-            Feminino
-        </label>
-        <label>
-            <input type="radio" name="genero">
-            Masculino
-        </label>
-        <label>
-            <input type="radio" name="genero">
-            Outros
-        </label>
+        </div>
+    <!--Div do texto hero-->
+    <div class="col-lg-6">
+        <h1 class="display-5 fw-bold">Se Adele é sentimento, esse é o seu momento!!!</h1>
+        <p class="">Onde a voz da Adele encontra corações que sentem cada melodia!</p>
+
+    </div>
+    
+
     </div>
 
-    <div id="selecao-estados">
-        <select>
-            <option selected disabled>Selecione um Estado:</option>
-            <option>Espirito Santo</option>
-            <option>São Paulo</option>
-            <option>Rio de Janeiro</option>
-            <option>Minas Gerais</option>
-        </select>
-    </div>
+</div>
 
-    <div>
-        <label for="compartilhar-informacoes">
-            <input id="compartilhar-informacoes" type="checkbox" />
-            Desejo compartilhar minhas informações
-        </label>
-    </div>
 
-    <div>
-        <label for="">
-            Volume
-            <input type="range" />
-        </label>
-    </div>
-
-    <a href="cadastro.html">Faça seu cadastro aqui</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </body>
-script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </html>
